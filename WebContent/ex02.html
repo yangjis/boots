@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--메타태그  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+-->
+
+<!-- css -->
+<link href="/boots/assets/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+<!-- 자바스크립트 -->
+<script type="text/javascript" src="/boots/assets/js/jquery/jquery-1.12.4.js"></script>
+<script type="text/javascript" src="/boots/assets/bootstrap/js/bootstrap.js"></script>
+
+<style type="text/css">
+div {border: 1px solid black;}
+.container{width:1000px;}
+</style>
+
+<title>부트스트랩2(그리드:가로폭을 임의로 정해보자)</title>
+<!-- 가로폭을 임의로 정하면 반응형아 안됨. 폭이 말그대로 고정됨
+	1. 메타태그 삭제.
+	2. 컨테이너 스타일을 직접 지정
+	3. 각 선택자의 아이디나 클래스 두번째 이름을 xs로 지정
+ -->
+
+</head>
+<body>
+
+	<div class="container">
+		<!-- 부트스트랩은 컨테이너로 감싸고 시작한다 -->
+		<div class="row">
+			<div class="col-xs-12">.col-xs-1</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+			<div class="col-xs-1">.col-xs-1</div>
+		</div>
+		
+		<div class ="row">
+		
+			<div class="col-xs-2">.col-xs-1</div>
+			<div class="col-xs-10">
+				<div class ="row">
+					<div class="col-xs-4">.col-xs-1</div>
+					<div class="col-xs-4">.col-xs-1</div>
+					<div class="col-xs-4">.col-xs-1</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="row">
+			<div class="col-xs-12">.col-xs-1</div>
+		</div>
+	
+	
+	</div> <!-- 컨테이너 div -->
+	
+
+
+
+</body>
+
+
+</html>
